@@ -1,0 +1,105 @@
+:root {
+    --bg1: #640f2fce;
+    --bg2: rgba(76, 11, 82, 0.815);
+    --body: rgb(82, 4, 49);
+    --brand: #9e6d17a6;
+    --white: rgba(80, 13, 42, 0.658);
+    --p: rgba(110, 9, 92, 0.747);
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 0%, 1%, 0.274), rgb(17, 17, 17)), url("https://a-static.besthdwallpaper.com/blackpink-gorgeous-members-wallpaper-1366x768-110032_46.jpg");
+    background-size: cover;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition : all 0.4s ease;
+    font-weight: 800;
+    border: 0;
+}
+
+.btn-brand{
+    background-color: #660938 ;
+
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: #f28038 ;
+    border-color: #f28038
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.icon-img-box{
+    width: 40%;
+}
+
+.card {
+    transition: backgound-color 0.3s, o.3s;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #eeeaea;
+}
+   
+.btn-outlined-brand {
+    color:#f71787;
+    background-color:black;
+    border-color:#f7017cd8;
+}
+
+.btn-outlined-brand:hover {
+    background-color:#f71787;
+}
+
+#cta {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 0%, 1%, 0.274), rgb(17, 17, 17)), url("https://a-static.besthdwallpaper.com/blackpink-gorgeous-members-wallpaper-1366x768-110032_46.jpg");
+    min-height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    color: var(--brand);
+}
+
+#reviews {
+    background-color: var(--white);
+}
+
+.testimonials {
+    background-color: va(--bg1);
+    padding: 30px;
+}
